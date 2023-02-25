@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginxapp
+  name: nginxapp2
   namespace: argo-deploy
   labels:
-    app: nginxapp
+    app: nginxapp2
 spec:
   containers:
   - name: n1
@@ -15,3 +15,4 @@ spec:
         cpu: "100m"
     ports:
       - containerPort: 80
+ 
